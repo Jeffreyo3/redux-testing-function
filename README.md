@@ -4,8 +4,8 @@ Created to be used with react-test-renderer
 Should be able to be used with any React component
  
 # How to use
-
-Import `{ findElementById }`.\
+Insert `reduxTestingFunctions.js` into a util/testing directory.\
+Import `{ findElementById }` from the appropriate directory.\
 When needing to find an element by id, pass in the root component & desired id.\
 Example:
 ```
@@ -54,3 +54,5 @@ describe('UserEditActive with item.value as an array', () => {
     })
 
 ```
+If this function was helpful, please give attribution to [jeffreyo3](https://github.com/Jeffreyo3/redux-testing-function) in the footer or a comment within your code.\
+Happy testing!
