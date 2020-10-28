@@ -1,8 +1,8 @@
 # redux-testing-function
 
-Created to be used with react-test-renderer
+Created to be used with [react-test-renderer](https://reactjs.org/docs/test-renderer.html)
 Should be able to be used with any React component
- 
+
 # How to use
 Insert `reduxTestingFunctions.js` into a util/testing directory.\
 Import `{ findElementById }` from the appropriate directory.\
